@@ -41,6 +41,25 @@ Prefer one of these:
 
 Read `references/patterns.md` when choosing a detailed pattern.
 
+## Template Library
+
+Use `assets/templates/default.md` when the user asks for a complete standard README. It includes the full checklist: hero, badges, primary links, preview image, highlights, quick start, usage, project structure, roadmap, Star History, Activity Overview, contribution, and license.
+
+Use `assets/templates/styles/` when the user asks for a specific visual direction or when the repo clearly fits one style:
+
+- `01-product-showcase.md`: product/app/browser extension README.
+- `02-research-roadmap.md`: research, roadmap, paper, or company-analysis repo.
+- `03-library-docs.md`: tool/library/API README.
+- `04-profile-portfolio.md`: personal GitHub profile README.
+- `05-awesome-curation.md`: curated list or awesome repository.
+- `06-profile-activity-overview.md`: profile README with Activity Overview / contribution-type distribution.
+- `07-startup-landing.md`: startup-style project homepage.
+- `08-course-tutorial.md`: course/tutorial/learning path README.
+- `09-bilingual-global.md`: Chinese-English global open-source README.
+- `10-minimal-technical.md`: restrained technical README for infra/devtools.
+
+Do not paste a template blindly. Replace placeholders, remove sections that do not match the repository, and verify links and claims.
+
 ## Visual Standards
 
 - Use real screenshots or generated preview images when they help visitors understand the project.
@@ -69,6 +88,8 @@ Read `references/patterns.md` when choosing a detailed pattern.
 - The table of contents is useful for long READMEs.
 - Installation or usage appears before deep implementation details.
 - File paths, URLs, and commands are current.
+- Star History is included when growth/social proof matters.
+- Activity Overview is included for profile or contributor-focused READMEs when contribution mix is part of the story.
 - The license and contribution path are easy to find.
 - The README still renders correctly without external CSS or JavaScript.
 
@@ -78,4 +99,3 @@ Read `references/patterns.md` when choosing a detailed pattern.
 - Do not claim GitHub Pages, CI, releases, license, or package support unless the repo actually has it or the user asks to create it.
 - Preserve user content that represents project truth, but improve hierarchy, wording, and presentation.
 - When changing README links, verify local paths exist where practical.
-

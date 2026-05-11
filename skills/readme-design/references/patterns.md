@@ -2,6 +2,36 @@
 
 Use these patterns to choose the right README shape.
 
+## Standard README Anatomy
+
+A strong README usually needs these ten components:
+
+1. Hero: name, logo/icon, one-sentence positioning.
+2. Badges: status, license, docs, build, release, stars, platform.
+3. Primary links: demo, GitHub Pages, docs, download, paper, examples, changelog.
+4. Visual proof: screenshot, preview image, architecture map, or result sample.
+5. Highlights: 3-6 concrete capabilities tied to user value.
+6. Quick start: install and run with the shortest honest path.
+7. Usage examples: commands, screenshots, inputs/outputs, or recipes.
+8. Project structure: only when it helps readers navigate.
+9. Roadmap: current status, next work, and planned direction.
+10. Trust and community: Star History, contribution guide, license, citation, FAQ, or support.
+
+Optional but useful:
+
+- Activity Overview / contribution type distribution for profile or contributor-focused READMEs.
+- Back-to-top links for long awesome lists or docs-heavy READMEs.
+- Bilingual entry points for Chinese projects that want global reach.
+
+## Visual And Copywriting Rules
+
+- Make the first viewport feel intentional: title, positioning, links, proof.
+- Use GitHub-safe emphasis: `<h1>`, `<strong>`, centered HTML blocks, compact tables, Mermaid, and real images.
+- Avoid AI-ish phrasing: "powerful", "innovative", "seamless", "empowering", "comprehensive", "next-generation" unless backed by evidence.
+- Prefer grounded claims: who it is for, what it does, how to try it, what changed, and where the proof is.
+- Use Star History when social proof matters, but do not over-index on it for young repos.
+- Treat Activity Overview as manual storytelling unless backed by a data source.
+
 ## Product README
 
 Best for apps, browser extensions, SaaS-like tools, dashboards, and visual projects.

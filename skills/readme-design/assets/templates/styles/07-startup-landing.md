@@ -1,46 +1,44 @@
+<!-- Startup-style README template. Use when the repo needs a landing-page feel. -->
+
 <div align="center">
-  <h1>{{STARTUP_PROJECT}}</h1>
-  <p><strong>{{CUSTOMER_PROBLEM}} → {{PRODUCT_OUTCOME}}</strong></p>
-  <p>{{MARKET_OR_AUDIENCE}}</p>
+  <h1>Signal Desk</h1>
+  <p><strong>Turn messy customer conversations into a weekly product signal brief.</strong></p>
+  <p>For founders, PMs, and small teams that cannot afford to lose user context.</p>
   <p>
-    <a href="{{WAITLIST_URL}}">Join Waitlist</a>
+    <a href="https://example.com/waitlist">Join Waitlist</a>
     ·
-    <a href="{{DEMO_URL}}">Watch Demo</a>
+    <a href="https://example.com/demo">Watch Demo</a>
     ·
-    <a href="{{DOCS_URL}}">Docs</a>
+    <a href="./docs">Docs</a>
   </p>
 </div>
 
-<p align="center">
-  <img src="./assets/landing-preview.png" alt="{{STARTUP_PROJECT}} preview" style="max-width:920px;width:100%;" />
-</p>
-
 ## The Problem
 
-{{PROBLEM_PARAGRAPH}}
+Customer feedback lives across chats, calls, emails, issues, and support threads. Teams read it, quote it, and then lose the connective tissue. The result is noisy planning and weak memory.
 
 ## The Product
 
 | Capability | Outcome |
 | --- | --- |
-| {{CAPABILITY_1}} | {{OUTCOME_1}} |
-| {{CAPABILITY_2}} | {{OUTCOME_2}} |
-| {{CAPABILITY_3}} | {{OUTCOME_3}} |
+| Import feedback from common sources | One place to review product signals |
+| Cluster repeated requests | Less anecdotal prioritization |
+| Generate weekly briefs | Decisions start from evidence |
 
 ## Why Now
 
-- {{TIMING_SIGNAL_1}}
-- {{TIMING_SIGNAL_2}}
-- {{TIMING_SIGNAL_3}}
+- AI makes summarization cheap, but source grounding still matters.
+- Small teams need customer memory before they need a CRM.
+- Product planning is shifting from dashboards to narrative evidence.
 
-## Status
+## Current Status
 
-| Area | Current State |
+| Area | State |
 | --- | --- |
-| Product | {{PRODUCT_STATUS}} |
-| Users | {{USER_STATUS}} |
-| Roadmap | {{ROADMAP_STATUS}} |
+| Product | Prototype |
+| Users | Private design partners |
+| Roadmap | Imports, clustering, weekly brief export |
 
 ## Build With Us
 
-Open an issue if you want to test, contribute, or discuss integrations.
+Open an issue if you want to test the workflow, contribute an importer, or discuss product planning patterns.

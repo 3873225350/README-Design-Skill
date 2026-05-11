@@ -1,28 +1,30 @@
-<h1 align="center">{{NAME}}</h1>
+<!-- Profile README template with Activity Overview / contribution distribution. -->
+
+<h1 align="center">Maya Lin</h1>
 
 <p align="center">
-  <strong>{{IDENTITY_LINE}}</strong>
+  <strong>Open-source builder focused on developer tools, review systems, and practical AI workflows.</strong>
 </p>
 
 <p align="center">
-  <a href="{{WEBSITE_URL}}">Website</a>
+  <a href="https://example.com">Website</a>
   ·
-  <a href="{{RESUME_URL}}">Resume</a>
+  <a href="https://example.com/resume.pdf">Resume</a>
   ·
-  <a href="{{CONTACT_URL}}">Contact</a>
+  <a href="mailto:hello@example.com">Contact</a>
 </p>
 
 ## Activity Overview
 
-This profile emphasizes contribution mix, not just total activity. Update the values manually or remove the chart when the numbers are stale.
+This section tells a story about contribution style. Update the numbers manually or remove the chart if it becomes stale.
 
 ```mermaid
 flowchart TB
-    Review["Code review<br/>{{CODE_REVIEW_PERCENT}}"]
-    Center(("{{YEAR}}<br/>Activity"))
-    PRs["Pull requests<br/>{{PRS_PERCENT}}"]
-    Commits["Commits<br/>{{COMMITS_PERCENT}}"]
-    Issues["Issues<br/>{{ISSUES_PERCENT}}"]
+    Review["Code review<br/>16%"]
+    Center(("2026<br/>Activity"))
+    PRs["Pull requests<br/>22%"]
+    Commits["Commits<br/>54%"]
+    Issues["Issues<br/>8%"]
 
     Review --- Center
     Center --- PRs
@@ -30,27 +32,23 @@ flowchart TB
     Center --- Issues
 ```
 
-| Contribution Type | Share | Notes |
+| Contribution Type | Share | What It Says |
 | --- | --- | --- |
-| Commits | {{COMMITS_PERCENT}} | {{COMMITS_NOTE}} |
-| Pull requests | {{PRS_PERCENT}} | {{PRS_NOTE}} |
-| Issues | {{ISSUES_PERCENT}} | {{ISSUES_NOTE}} |
-| Code review | {{CODE_REVIEW_PERCENT}} | {{REVIEW_NOTE}} |
+| Commits | 54% | Hands-on implementation across active repositories |
+| Pull requests | 22% | Frequent integration and collaboration work |
+| Code review | 16% | Review-heavy maintenance and project stewardship |
+| Issues | 8% | Focused triage rather than noisy discussion |
 
 ## Work I Care About
 
-- {{CARE_1}}
-- {{CARE_2}}
-- {{CARE_3}}
+- Tools that make review and documentation easier.
+- Small systems that help teams remember decisions.
+- AI workflows that preserve engineering quality.
 
 ## Featured Repositories
 
 | Repository | Focus | Signal |
 | --- | --- | --- |
-| [{{REPO_1}}]({{REPO_1_URL}}) | {{REPO_1_FOCUS}} | {{REPO_1_SIGNAL}} |
-| [{{REPO_2}}]({{REPO_2_URL}}) | {{REPO_2_FOCUS}} | {{REPO_2_SIGNAL}} |
-
-## Recent Writing
-
-- [{{POST_1}}]({{POST_1_URL}})
-- [{{POST_2}}]({{POST_2_URL}})
+| `review-lab` | Pull request review workflows | Used across internal projects |
+| `docs-radar` | Documentation quality checks | Converts docs drift into issues |
+| `ai-notes-kit` | Reusable AI session notes | Helps long-running work resume cleanly |

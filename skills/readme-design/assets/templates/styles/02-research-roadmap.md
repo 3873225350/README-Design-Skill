@@ -1,52 +1,61 @@
+<!-- Research/roadmap README template. Replace the sample scope with your own. -->
+
 <div align="center">
-  <h1>{{RESEARCH_PROJECT_NAME}}</h1>
-  <p><strong>{{SCOPE}} technical roadmaps, papers, products, and engineering signals.</strong></p>
+  <h1>ChinaAI Roadmaps</h1>
+  <p><strong>GLM, Kimi, DeepSeek, MiniMax and other Chinese AI companies through papers, releases, products, and engineering signals.</strong></p>
   <p>
-    <a href="{{PAGES_URL}}">GitHub Pages</a>
+    <a href="https://example.com">GitHub Pages</a>
     ·
-    <a href="{{PAPER_INDEX_URL}}">Paper Index</a>
+    <a href="./papers">Paper Index</a>
     ·
-    <a href="{{PDF_CENTER_URL}}">PDF Downloads</a>
+    <a href="./dist/pdf">PDF Downloads</a>
     ·
-    <a href="{{TOPIC_ARCHIVE_URL}}">Topic Archive</a>
+    <a href="./roadmaps">Roadmaps</a>
   </p>
   <p>
     <img src="https://img.shields.io/badge/GitHub%20Pages-online-10A37F" alt="pages online" />
-    <img src="https://img.shields.io/badge/roadmaps-{{ROADMAP_COUNT}}-2563EB" alt="roadmap count" />
-    <img src="https://img.shields.io/badge/PDFs-{{PDF_COUNT}}-DC2626" alt="PDF count" />
+    <img src="https://img.shields.io/badge/roadmaps-4-2563EB" alt="roadmaps" />
+    <img src="https://img.shields.io/badge/PDFs-45-DC2626" alt="PDFs" />
   </p>
 </div>
 
-<p align="center">
-  <img src="./assets/site-preview.png" alt="{{RESEARCH_PROJECT_NAME}} site preview" style="max-width:920px;width:100%;" />
-</p>
-
 ## Online Access
 
-| Entry | Link | Notes |
+| Entry | Link | Best For |
 | --- | --- | --- |
-| Site | {{PAGES_URL}} | Best reading experience |
-| Markdown | {{MARKDOWN_INDEX_URL}} | Source-friendly index |
-| PDF | {{PDF_CENTER_URL}} | Printable archive |
+| Site | `https://example.com` | Reading and navigation |
+| Markdown | `./roadmaps` | Source review and edits |
+| PDF | `./dist/pdf` | Sharing and archive |
 
 ## Topic Map
 
-| Topic | Artifacts | Status | Links |
+| Company | Current Focus | Artifacts | Status |
 | --- | --- | --- | --- |
-| {{TOPIC_1}} | Roadmap, papers, notes | {{STATUS_1}} | {{LINKS_1}} |
-| {{TOPIC_2}} | Roadmap, papers, notes | {{STATUS_2}} | {{LINKS_2}} |
-| {{TOPIC_3}} | Roadmap, papers, notes | {{STATUS_3}} | {{LINKS_3}} |
+| GLM | Agent and model stack | Roadmap, papers, releases | Updating |
+| Kimi | Long-context productization | Roadmap, product notes | Updating |
+| DeepSeek | open model and reasoning line | Papers, code links | Active |
+| MiniMax | multimodal and product stack | Roadmap, release notes | Drafting |
 
 ## Method
 
 1. Track public papers, repositories, releases, talks, and product updates.
-2. Extract timeline, architecture, evaluation, and productization signals.
-3. Compare companies and models without flattening their different goals.
+2. Extract model lineage, architecture choices, evaluation signals, and product direction.
+3. Compare companies without forcing them into the same narrative.
+
+## Output Formats
+
+```mermaid
+flowchart LR
+    S["Sources"] --> M["Markdown notes"]
+    M --> P["PDF archive"]
+    M --> W["GitHub Pages"]
+    M --> T["Topic index"]
+```
 
 ## Update Plan
 
 | Cadence | What Changes |
 | --- | --- |
-| Weekly | New links, paper updates, release notes |
+| Weekly | New links, releases, and paper updates |
 | Monthly | Roadmap synthesis and company comparison |
-| Quarterly | Deep-dive report and archive cleanup |
+| Quarterly | Deep report and archive cleanup |

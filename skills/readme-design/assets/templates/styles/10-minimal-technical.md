@@ -1,49 +1,53 @@
-# {{PROJECT_NAME}}
+<!-- Minimal technical README template. Use for infra, devtools, CLIs, and libraries that should feel precise. -->
 
-{{ONE_LINE_TECHNICAL_DESCRIPTION}}
+# logcut
+
+Small CLI for cutting large logs into reproducible, shareable debugging slices.
 
 ```text
-{{INPUT}} -> {{PROCESS}} -> {{OUTPUT}}
+raw log -> time/window filters -> compact artifact
 ```
 
 ## Install
 
 ```bash
-{{INSTALL_COMMAND}}
+cargo install logcut
 ```
 
 ## Usage
 
 ```bash
-{{USAGE_COMMAND}}
+logcut app.log --since 10m --grep "payment" --out payment-debug.log
 ```
 
 ## Design Goals
 
-- {{GOAL_1}}
-- {{GOAL_2}}
-- {{GOAL_3}}
+- Produce artifacts small enough to attach to issues.
+- Keep filtering rules explicit and repeatable.
+- Avoid hidden state, background services, and proprietary storage.
 
 ## Non-Goals
 
-- {{NON_GOAL_1}}
-- {{NON_GOAL_2}}
+- Full observability platform.
+- Real-time log streaming.
 
 ## Configuration
 
 | Option | Default | Description |
 | --- | --- | --- |
-| `{{OPTION_1}}` | `{{DEFAULT_1}}` | {{DESC_1}} |
-| `{{OPTION_2}}` | `{{DEFAULT_2}}` | {{DESC_2}} |
+| `--since` | none | Relative or absolute start time |
+| `--grep` | none | Include lines matching a pattern |
+| `--context` | `2` | Lines before and after a match |
 
 ## Internals
 
 ```mermaid
 flowchart LR
-    A["{{STAGE_1}}"] --> B["{{STAGE_2}}"]
-    B --> C["{{STAGE_3}}"]
+    A["Read stream"] --> B["Apply filters"]
+    B --> C["Preserve context"]
+    C --> D["Write artifact"]
 ```
 
 ## License
 
-{{LICENSE_NAME}}
+MIT

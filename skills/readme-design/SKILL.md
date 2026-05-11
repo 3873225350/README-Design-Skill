@@ -43,7 +43,7 @@ Read `references/patterns.md` when choosing a detailed pattern.
 
 ## Template Library
 
-Use `assets/templates/default.md` when the user asks for a complete standard README. It includes the full checklist: hero, badges, primary links, preview image, highlights, quick start, usage, project structure, roadmap, Star History, Activity Overview, contribution, and license.
+Use `assets/templates/default.md` when the user asks for a complete standard README. It includes the full checklist: hero, badges, primary links, preview flow, highlights, quick start, usage, project structure, roadmap, Star History, Activity Overview, contribution, and license.
 
 Use `assets/templates/styles/` when the user asks for a specific visual direction or when the repo clearly fits one style:
 
@@ -58,7 +58,7 @@ Use `assets/templates/styles/` when the user asks for a specific visual directio
 - `09-bilingual-global.md`: Chinese-English global open-source README.
 - `10-minimal-technical.md`: restrained technical README for infra/devtools.
 
-Do not paste a template blindly. Replace placeholders, remove sections that do not match the repository, and verify links and claims.
+Templates are written as polished sample READMEs, not raw placeholder dumps. Do not paste one blindly. Replace sample names, links, commands, numbers, and claims with repository facts; remove sections that do not match the project.
 
 ## Visual Standards
 
@@ -76,6 +76,7 @@ Do not paste a template blindly. Replace placeholders, remove sections that do n
 - Prefer short sections and descriptive headings.
 - Use bilingual headings only when the repo targets both Chinese and global readers.
 - Replace vague phrases like "very powerful" with capabilities, examples, metrics, or screenshots.
+- Avoid generic AI phrasing such as "innovative", "seamless", "empowering", "next-generation", and "comprehensive" unless evidence makes the claim specific.
 - Make the README persuasive but still truthful: do not invent stars, downloads, papers, benchmarks, or support status.
 - For Chinese open-source repos, keep the tone confident, clean, and product-like; avoid dense academic paragraphs at the top.
 

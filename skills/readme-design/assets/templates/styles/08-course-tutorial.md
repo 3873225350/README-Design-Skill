@@ -1,49 +1,58 @@
+<!-- Course/tutorial README template. Make the learner's path visible first. -->
+
 <div align="center">
-  <h1>{{COURSE_NAME}}</h1>
-  <p><strong>{{LEARNING_OUTCOME}}</strong></p>
-  <p>{{TARGET_LEARNER}} · {{TIME_REQUIRED}} · {{PROJECT_BASED_OR_NOT}}</p>
+  <h1>Build A GitHub Pages Knowledge Base</h1>
+  <p><strong>A project-based path from scattered Markdown notes to a public, searchable documentation site.</strong></p>
+  <p>Beginner-friendly · 2-3 hours · Build while learning</p>
 </div>
 
-<p align="center">
-  <img src="./assets/course-map.png" alt="{{COURSE_NAME}} learning map" style="max-width:900px;width:100%;" />
-</p>
+## Learning Map
+
+```mermaid
+flowchart LR
+    A["Markdown sources"] --> B["Site structure"]
+    B --> C["Pages build"]
+    C --> D["Search and navigation"]
+    D --> E["Published knowledge base"]
+```
 
 ## Start Here
 
 | Step | Lesson | Output |
 | --- | --- | --- |
-| 1 | {{LESSON_1}} | {{OUTPUT_1}} |
-| 2 | {{LESSON_2}} | {{OUTPUT_2}} |
-| 3 | {{LESSON_3}} | {{OUTPUT_3}} |
+| 1 | Organize Markdown files | Clean `docs/` structure |
+| 2 | Add site navigation | Working table of contents |
+| 3 | Publish with GitHub Pages | Public site URL |
 
 ## What You Will Build
 
-- {{BUILD_1}}
-- {{BUILD_2}}
-- {{BUILD_3}}
+- A repository that doubles as source and website.
+- A clear docs hierarchy with topic pages.
+- A repeatable publishing workflow.
 
 ## Prerequisites
 
 ```bash
-{{SETUP_COMMANDS}}
+git --version
+node --version
 ```
 
 ## Modules
 
-### Module 1 - {{MODULE_1}}
+### Module 1 - Content Structure
 
-{{MODULE_1_DESC}}
+Turn loose notes into a stable folder system and page naming convention.
 
-### Module 2 - {{MODULE_2}}
+### Module 2 - Site Shell
 
-{{MODULE_2_DESC}}
+Create the homepage, navigation, and topic pages.
 
-### Module 3 - {{MODULE_3}}
+### Module 3 - Publish And Iterate
 
-{{MODULE_3_DESC}}
+Deploy to GitHub Pages and improve the reading path.
 
 ## Completion Checklist
 
-- [ ] {{CHECK_1}}
-- [ ] {{CHECK_2}}
-- [ ] {{CHECK_3}}
+- [ ] The site has a clear homepage.
+- [ ] Every major topic has a landing page.
+- [ ] GitHub Pages is published and linked from the README.

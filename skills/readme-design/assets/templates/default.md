@@ -1,69 +1,82 @@
+<!--
+Default README template.
+Replace the sample names, links, and numbers with real project facts.
+Remove sections that do not match the repository.
+-->
+
 <div align="center">
-  <h1>{{PROJECT_NAME}}</h1>
-  <p><strong>{{ONE_SENTENCE_POSITIONING}}</strong></p>
-  <p>{{SHORT_CONTEXT_LINE_WITH_AUDIENCE_OR_SCOPE}}</p>
+  <h1>Project Name</h1>
+  <p><strong>A clear one-sentence promise for the project.</strong></p>
+  <p>Who it is for · What it helps them do · Why it is worth trying</p>
 
   <p>
-    <a href="{{DEMO_URL}}">Live Demo</a>
+    <a href="https://example.com">Live Demo</a>
     ·
-    <a href="{{DOCS_URL}}">Docs</a>
+    <a href="./docs">Docs</a>
     ·
-    <a href="{{DOWNLOAD_URL}}">Download</a>
+    <a href="./examples">Examples</a>
     ·
-    <a href="{{CHANGELOG_URL}}">Changelog</a>
+    <a href="./CHANGELOG.md">Changelog</a>
   </p>
 
   <p>
     <img src="https://img.shields.io/badge/status-active-10A37F" alt="status" />
-    <img src="https://img.shields.io/github/license/{{OWNER}}/{{REPO}}" alt="license" />
-    <img src="https://img.shields.io/github/stars/{{OWNER}}/{{REPO}}?style=social" alt="stars" />
+    <img src="https://img.shields.io/badge/docs-ready-2563EB" alt="docs" />
+    <img src="https://img.shields.io/badge/license-MIT-111827" alt="license" />
   </p>
 </div>
 
 ---
 
-<p align="center">
-  <img src="./assets/preview.png" alt="{{PROJECT_NAME}} preview" style="max-width:900px;width:100%;" />
-</p>
+```mermaid
+flowchart LR
+    A["Visitor lands on README"] --> B["Understands the project"]
+    B --> C["Sees proof"]
+    C --> D["Runs or explores it"]
+```
 
 ## Why This Exists
 
-- {{USER_PAIN_OR_OPPORTUNITY_1}}
-- {{USER_PAIN_OR_OPPORTUNITY_2}}
-- {{USER_PAIN_OR_OPPORTUNITY_3}}
+- The target user has a real problem that the project solves.
+- The project offers a simpler path than the current workflow.
+- The README gives enough proof to try it without reading the whole codebase.
 
 ## Highlights
 
 | Area | What It Does | Why It Matters |
 | --- | --- | --- |
-| {{FEATURE_AREA_1}} | {{FEATURE_1}} | {{VALUE_1}} |
-| {{FEATURE_AREA_2}} | {{FEATURE_2}} | {{VALUE_2}} |
-| {{FEATURE_AREA_3}} | {{FEATURE_3}} | {{VALUE_3}} |
+| First value | Explains the core outcome quickly | Reduces bounce in the first screen |
+| Proof | Shows screenshots, diagrams, or examples | Makes the project feel real |
+| Path | Gives install, usage, and next steps | Turns interest into action |
 
 ## Quick Start
 
 ```bash
-{{INSTALL_COMMAND}}
-{{RUN_COMMAND}}
+git clone https://github.com/owner/repo.git
+cd repo
+make dev
 ```
 
 ## Usage
 
 ```bash
-{{EXAMPLE_COMMAND}}
+project-name run ./examples/input.json
 ```
 
+Expected result:
+
 ```text
-{{EXPECTED_OUTPUT_OR_RESULT}}
+Output is generated in ./dist with a readable report and logs.
 ```
 
 ## Project Structure
 
 ```text
-{{REPO}}/
-├─ docs/
-├─ src/
-├─ assets/
+repo/
+├─ docs/        Documentation and design notes
+├─ examples/    Small runnable examples
+├─ src/         Core implementation
+├─ tests/       Regression tests
 └─ README.md
 ```
 
@@ -71,31 +84,36 @@
 
 | Stage | Status | Scope |
 | --- | --- | --- |
-| v0.1 | Done | {{DONE_SCOPE}} |
-| v0.2 | Doing | {{DOING_SCOPE}} |
-| v0.3 | Planned | {{PLANNED_SCOPE}} |
+| v0.1 | Done | Core workflow and examples |
+| v0.2 | Doing | Better docs and public demo |
+| v0.3 | Planned | Integrations, templates, and benchmarks |
 
 ## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos={{OWNER}}/{{REPO}}&type=Date)](https://star-history.com/#{{OWNER}}/{{REPO}}&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=owner/repo&type=Date)](https://star-history.com/#owner/repo&Date)
 
 ## Activity Overview
 
-Use this section when contribution mix is part of the story. Keep the numbers honest; update them manually or remove the section.
+Use this only when contribution mix matters. Keep the numbers honest.
 
 ```mermaid
-flowchart LR
-    C(("Activity<br/>Overview"))
-    C --- A["Commits<br/>{{COMMITS_PERCENT}}"]
-    C --- B["Issues<br/>{{ISSUES_PERCENT}}"]
-    C --- D["Pull requests<br/>{{PRS_PERCENT}}"]
-    C --- E["Code review<br/>{{REVIEW_PERCENT}}"]
+flowchart TB
+    Review["Code review<br/>12%"]
+    Center(("Activity<br/>Overview"))
+    PRs["Pull requests<br/>18%"]
+    Commits["Commits<br/>62%"]
+    Issues["Issues<br/>8%"]
+
+    Review --- Center
+    Center --- PRs
+    Commits --- Center
+    Center --- Issues
 ```
 
 ## Contributing
 
-Contributions are welcome. Please open an issue first for large changes so the direction stays clear.
+Issues and pull requests are welcome. For large changes, open an issue first so the direction is clear.
 
 ## License
 
-Released under the {{LICENSE_NAME}} License.
+MIT

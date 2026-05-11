@@ -1,50 +1,44 @@
-<h1 align="center">Hi, I'm {{NAME}}</h1>
+<!-- GitHub profile README template. Replace the sample identity and links. -->
+
+<h1 align="center">Hi, I'm Alex Chen</h1>
 
 <p align="center">
-  {{ROLE_1}} / {{ROLE_2}} / {{CREATIVE_IDENTITY}}
+  Full-stack developer · AI product builder · Technical writer
 </p>
 
 <p align="center">
-  <a href="{{WEBSITE_URL}}">Website</a>
+  <a href="https://example.com">Website</a>
   ·
-  <a href="{{BLOG_URL}}">Writing</a>
+  <a href="https://example.com/writing">Writing</a>
   ·
-  <a href="{{RESUME_URL}}">Resume</a>
+  <a href="https://example.com/resume.pdf">Resume</a>
   ·
-  <a href="{{CONTACT_URL}}">Contact</a>
+  <a href="mailto:hello@example.com">Email</a>
 </p>
 
 ## About
 
-I build at the intersection of {{DOMAIN_1}}, {{DOMAIN_2}}, and {{DOMAIN_3}}. I care about {{VALUE_1}}, {{VALUE_2}}, and shipping work that people can actually use.
+I build small, reliable tools for people who work with code, documents, and AI systems every day. I care about fast feedback loops, maintainable interfaces, and products that explain themselves.
 
 ## Featured Projects
 
-| Project | What It Is | Why It Matters |
+| Project | What It Is | Signal |
 | --- | --- | --- |
-| [{{PROJECT_1}}]({{PROJECT_1_URL}}) | {{PROJECT_1_DESC}} | {{PROJECT_1_PROOF}} |
-| [{{PROJECT_2}}]({{PROJECT_2_URL}}) | {{PROJECT_2_DESC}} | {{PROJECT_2_PROOF}} |
-| [{{PROJECT_3}}]({{PROJECT_3_URL}}) | {{PROJECT_3_DESC}} | {{PROJECT_3_PROOF}} |
+| [FlowBoard](https://example.com) | AI conversation navigator and export tool | Used for research workflows |
+| [Roadmap Lab](https://example.com) | Technical roadmap publishing stack | Powers public knowledge pages |
+| [Tiny Infra Notes](https://example.com) | Personal infrastructure playbook | Written from real deployments |
 
 ## Current Focus
 
-- {{FOCUS_1}}
-- {{FOCUS_2}}
-- {{FOCUS_3}}
+- Turning AI workflows into reusable project systems.
+- Building README and docs patterns for open-source projects.
+- Publishing practical notes on engineering taste and product clarity.
 
 ## Stack
 
 | Area | Tools |
 | --- | --- |
-| Frontend | {{FRONTEND_STACK}} |
-| Backend | {{BACKEND_STACK}} |
-| AI | {{AI_STACK}} |
-| Infra | {{INFRA_STACK}} |
-
-## Connect
-
-| Platform | Link |
-| --- | --- |
-| Email | {{EMAIL}} |
-| X / Twitter | {{TWITTER}} |
-| Blog | {{BLOG_URL}} |
+| Frontend | React, TypeScript, Vite |
+| Backend | Node.js, Python, PostgreSQL |
+| AI | OpenAI API, local evaluation scripts |
+| Infra | GitHub Actions, Docker, Cloudflare |

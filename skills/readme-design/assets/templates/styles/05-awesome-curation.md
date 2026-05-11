@@ -1,41 +1,43 @@
+<!-- Awesome/curation README template. Keep descriptions short and opinionated. -->
+
 <div align="center">
-  <h1>{{AWESOME_LIST_NAME}}</h1>
-  <p><strong>A curated map of {{CURATION_DOMAIN}}.</strong></p>
-  <p>{{CURATION_PROMISE}}</p>
+  <h1>Awesome README Design</h1>
+  <p><strong>A curated map of GitHub README patterns that make projects easier to trust, try, and share.</strong></p>
   <p>
     <img src="https://img.shields.io/badge/curated-yes-10A37F" alt="curated" />
-    <img src="https://img.shields.io/badge/items-{{ITEM_COUNT}}-2563EB" alt="item count" />
-    <img src="https://img.shields.io/github/last-commit/{{OWNER}}/{{REPO}}" alt="last commit" />
+    <img src="https://img.shields.io/badge/items-64-2563EB" alt="item count" />
+    <img src="https://img.shields.io/badge/PRs-welcome-111827" alt="PRs welcome" />
   </p>
 </div>
 
 ## Categories
 
-- [{{CATEGORY_1}}](#{{CATEGORY_1_ANCHOR}})
-- [{{CATEGORY_2}}](#{{CATEGORY_2_ANCHOR}})
-- [{{CATEGORY_3}}](#{{CATEGORY_3_ANCHOR}})
-- [Contributing](#contributing)
+- [Product READMEs](#product-readmes)
+- [Library READMEs](#library-readmes)
+- [Profile READMEs](#profile-readmes)
+- [Contribution](#contribution)
 
-## {{CATEGORY_1}}
+## Product READMEs
 
-| Name | Why It Is Included | Link |
+| Project | Why It Works | Link |
 | --- | --- | --- |
-| {{ITEM_1}} | {{REASON_1}} | {{LINK_1}} |
-| {{ITEM_2}} | {{REASON_2}} | {{LINK_2}} |
+| Product A | Strong first screen, real screenshots, clear install path | `https://example.com` |
+| Product B | Good demo links and concise feature grouping | `https://example.com` |
 
-## {{CATEGORY_2}}
+## Library READMEs
 
-| Name | Why It Is Included | Link |
+| Project | Why It Works | Link |
 | --- | --- | --- |
-| {{ITEM_3}} | {{REASON_3}} | {{LINK_3}} |
-| {{ITEM_4}} | {{REASON_4}} | {{LINK_4}} |
+| Library A | Install and example are visible immediately | `https://example.com` |
+| Library B | API table is compact and accurate | `https://example.com` |
 
 ## Selection Rules
 
-- Prefer maintained projects, original sources, and useful examples.
-- Avoid duplicates, abandoned links, and shallow marketing pages.
-- Keep descriptions factual and short.
+- Include original sources, not reposts.
+- Prefer maintained projects with working links.
+- Describe what the README does well, not just what the project does.
+- Remove entries that become stale or promotional.
 
-## Contributing
+## Contribution
 
-Open an issue or PR with the item, source link, and one sentence explaining why it belongs here.
+Open a pull request with the link, category, and one sentence explaining the design lesson.

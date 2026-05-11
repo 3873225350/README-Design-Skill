@@ -1,7 +1,9 @@
+<!-- Bilingual README template for Chinese projects that want global reach. -->
+
 <div align="center">
-  <h1>{{PROJECT_NAME}}</h1>
-  <p><strong>{{ENGLISH_POSITIONING}}</strong></p>
-  <p><strong>{{CHINESE_POSITIONING}}</strong></p>
+  <h1>Open Model Roadmaps</h1>
+  <p><strong>Track open model companies through papers, products, releases, and engineering decisions.</strong></p>
+  <p><strong>追踪开源模型公司的论文、产品、发布节奏与工程路线。</strong></p>
   <p>
     English
     ·
@@ -9,40 +11,37 @@
   </p>
 </div>
 
-<p align="center">
-  <img src="./assets/preview.png" alt="{{PROJECT_NAME}} preview" style="max-width:920px;width:100%;" />
-</p>
-
 ## Why It Matters
 
-{{ENGLISH_VALUE_PARAGRAPH}}
+Open model progress is no longer explained by papers alone. Releases, code, benchmarks, product choices, and community adoption all shape the real technical roadmap.
 
 ## 为什么值得关注
 
-{{CHINESE_VALUE_PARAGRAPH}}
+开源模型的发展已经不只体现在论文里。发布节奏、代码实现、评测结果、产品选择和社区采用，都会共同塑造真实的技术路线。
 
 ## Features / 功能
 
 | Feature | 功能 | Value |
 | --- | --- | --- |
-| {{FEATURE_EN_1}} | {{FEATURE_ZH_1}} | {{VALUE_1}} |
-| {{FEATURE_EN_2}} | {{FEATURE_ZH_2}} | {{VALUE_2}} |
-| {{FEATURE_EN_3}} | {{FEATURE_ZH_3}} | {{VALUE_3}} |
+| Company timelines | 公司时间线 | See how strategy changes over time |
+| Paper index | 论文索引 | Connect claims with sources |
+| Product notes | 产品记录 | Understand implementation direction |
 
 ## Quick Start / 快速开始
 
 ```bash
-{{INSTALL_COMMAND}}
-{{RUN_COMMAND}}
+git clone https://github.com/owner/open-model-roadmaps.git
+cd open-model-roadmaps
 ```
 
 ## Roadmap / 路线图
 
 | Milestone | 里程碑 | Status |
 | --- | --- | --- |
-| {{MILESTONE_EN_1}} | {{MILESTONE_ZH_1}} | {{STATUS_1}} |
-| {{MILESTONE_EN_2}} | {{MILESTONE_ZH_2}} | {{STATUS_2}} |
+| Public index | 公开索引 | Done |
+| Company comparison | 公司对比 | Doing |
+| Monthly report | 月度报告 | Planned |
 
 ## License / 许可
 
-{{LICENSE_NAME}}
+MIT

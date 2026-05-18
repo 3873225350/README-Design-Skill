@@ -62,6 +62,7 @@ Most open-source READMEs fail in the same quiet way: the project may be useful, 
 ## What The Skill Cares About
 
 - **First screen clarity**: a visitor should understand the project in 10 seconds.
+- **README logo / wordmark**: product-like repos should get a small original top identity when they do not already have one.
 - **Visual evidence**: screenshots, diagrams, result previews, or structured examples.
 - **Trust signals**: badges, Star History, license, contribution path, and real status.
 - **Non-AI copy**: fewer vague claims, more concrete objects, workflows, outputs, and constraints.
